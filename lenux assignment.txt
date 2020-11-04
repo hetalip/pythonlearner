@@ -1,0 +1,182 @@
+Q 1 command for IP address
+ipconfig
+
+Q 2 mv command
+'mv' command stands for move. It is used for moving files and directories from one place to another. It is also used for renaming the file.
+
+Q 3  New empty file creation
+>cat_filename; touch_filename;
+
+Q 4 Display Directories
+
+ls, ls-I for list with details.
+
+Q 5 
+dir is used for name of directories with information.
+dir--file-type provides file type. There are various commands dir--a for all directories, current and previous etc.
+
+Q 6
+CLS is used for clearing the commands from terminal.
+
+Q 7
+Deamons are proceses running in the back ground.All deamons have 'd' at the end of the name such as 'httpd', 'sshd'.
+ Linux starts deamons at the time of booting or initiation.
+
+Q 8
+cd is used to move to immidiate back directory. For root diectory , command is 'cd/'.
+
+Q 9
+Echo is used to get line of text which are used as argument. 
+
+Q 10
+cat is used to display content of the file. we can couple it with 'head','more', 'less' to view top10, more than a page and less content.
+
+Q 11
+ps- p$s 
+
+Q 12
+service <servicename> status
+
+Q 13
+sudo allows to run a program with elevated permission of super user.
+ 
+Q 14
+pwd is used to find out path of working directory.
+
+ Q 15
+rm- rf directoryname.
+
+Q 16
+'su' command is used to change user to normal.
+
+Q 17
+'sudo su' is used to switch to super user.
+ Q 17
+fiel type is the command.
+
+
+
+================================================================================================================================================================================================
+INTERMIDIATE LEVEL
+
+Q 1
+Mode of operations- COmmand mode, last lie mode/ escape mode, insert mode to insert text.
+
+Q 2
+mkdir {dir1, dir2, dir3}
+
+Q 3
+LILO is the boot loader for linux. It does not need specific file to load. It can be loaded from hard disk.
+
+Q 4
+cd- This prints previuoslu used directory and changes to it.
+cd~ This changes the previously used directory without echoing.
+cd/ chages the current directory to root directory.
+
+Q 5
+GREP globally search a regular expression and print.
+
+
+Q 6
+rmdir will throw an error showing the working directory can not be removed.
+
+Q 7
+usr/lcl command specifies path for file to save in user's local drive/machine. It is used by system administrators to upload software 
+in a safe location, so that it do not get overwritten.
+
+Q 8
+In linux 'who' will give username. In unix 'whoami' gives the same.
+
+Q 9
+passwd command is used to change the pasword.
+
+Q 10
+'diff file1 file2' is used to find the differencce of two files.
+
+Q 11
+'find .' is used to find the file located in linux.
+
+Q 12
+'W' command is used to see who is logged in.
+
+Q 13
+First give 'ps' command to list processes running in the linux and than give 'kill' to forcefully kill the process.
+
+Q 14
+'fgrep "letter to start with" filename'
+
+Q 15
+'mv *.txt folder/directory'
+
+Q 16
+'cat /proc/ meminfo' shows how much memory is inuse.
+
+Q17
+'ls - r' is used to get list in reverse order.
+
+Q 18
+'who - b' shows the last boot system date and time.
+
+Q 19
+'chown' is used for changing the ownership of a file.
+
+=================================================================================================================================================================================================
+ADVANCE LEVEL
+
+Q 1
+'cat/ proc/ mount' to see the list of mounted devices on linux.
+
+Q 2
+'df -m' will show disk space in Megabyte. 'df- k' will show disk space in kilobyte. 'df- g' will show in gigabyte.
+
+Q 3
+Swap Space' when physical memory is full in machine, process is moved to use Swap space which is slower acces space in hard drive.
+Partition declines with increasing RAM in hard disk. For 2 GB RAM , it should be 2 times the RAM, where as 8 GB RAM, may have only 0.5 times the RAM.
+
+Q 4
+'at' command is used to schedule a run of command.
+
+Q 5 Sorry could not do it.
+
+ Q 6
+Export command is used to export a variable/function from parent object to child object without affecting other environments. EX- 'export a' will export
+ objects assigned to a to a child object.
+
+Q 7
+Redirection, when executed allows user to change standard input and output devices. Input device include keyboard and output device is monitor.
+
+Q 8
+'mesg' is used to review the boot messages.
+
+Q 9
+'chgmod' is used to change permissions of file. Usage- In linux , multiple people can use file at the same time. To avaoid crash or confusion, 
+users are given different permissions. Superuser can read, write and execute file. Other members can read only. To serve the need of all the users, 
+change of permissions should take place.
+
+Q 10
+'mkfs' is used to create new file system in linux.
+
+Q 11
+'gzip bigfile name' is used to compress file in linux.
+
+Q 12
+'sudo mkdir/ media/ nfs'
+'sudo mount/ media/ nfs'
+
+Q 13
+shutdown -shut down system in safe way.
+
+diff - to find out the difference between files
+
+sort - to get output of file/data in perticular order.
+ps -to know process status of currently running processes in the system.
+kill- to forcefully stop the process.
+mount- mount is used to mount file to tree or attach the file to directory. It is also used to detach the file from the tree.
+nano- nano is the text editor for linux which is simple and easy to use.
+
+Q 14
+sumbolic inks are used to create shortcuts for file management system. It is also used for better location of downloads, documents etc.
+'in -s [target file] [symbolic file]
+
+Q 15
+'scp' is used for copy of file to other directory.

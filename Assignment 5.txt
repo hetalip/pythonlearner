@@ -1,0 +1,60 @@
+a program in Python to allow the error of syntax to be handled using exception handling.
+
+b = 5
+c = 5
+
+
+try:
+    a= b / *c
+except SyntaxError as '*' :
+    print ('syntax error!!!')
+
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
+#2
+filename = input ('enter the file name')
+
+fileobj = open(filename)
+try:
+        fileobj.read ()
+except NameError as incorrectname:
+        print ('please enter correct name')
+
+#3----------------------------------------------------------------------------------------------------
+digits= input('enter four digits only')
+try:
+    for i in digits:
+     i.count ==4
+
+except ValueError as (i!=4)
+    print ('input value is not 4 digits')
+
+#4---------------------------------------------------------------------------------------------------------------------------------
+print('Enter username and password to continue')
+count=0
+while count < 4:
+    username = input('Enter username: ')
+    password = input('Enter password: ')
+    retype_password = input('retype the password')
+    if password=='123' and retype_password == password and username=='admin':
+        print('Access granted')
+        break
+    else:
+        print('Access denied. Try again.')
+        count += 1
+5---------------------------------------------------------------------------------------------------
+f= open ('hetali.txt', 'w+')
+f.write ("Hello I am a file"
+"Where you need to return the data string"
+"Which is of even length"
+"Make sure you return the content in The same link as it is present.")
+
+f.close()
+
+file= open('hetali.txt','r')
+contents = file.read
+print(contents)
+
+error------<built-in method read of _io.TextIOWrapper object at 0x000001B424C84C70>

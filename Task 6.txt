@@ -1,0 +1,35 @@
+1-------------------------------------------------------------------
+original_string = 'HETALI is WORKing on TASK 6'
+
+result= [ i for i in original_string if i.isupper()]
+       
+   
+print(result ('The upper case characters says:'+ str())
+
+error- unexpected EOF while passing
+
+2-------------------------------------------------------------------------------------------------------------
+
+students = ['Smit', 'Jaya', 'Rayyan'] 
+subjects = ['CSE', 'Networking', 'Operating System']
+
+new_dict = dict(zip( students , subjects))
+
+
+
+print ('dict:' +str(new_dict))
+---------------------------------------------------------------------------------------------------------------------
+
+4
+
+
+def reverse_string (newstring):
+        
+    length = len(newstring)
+    for i in range (length -1, -1, -1):
+        yield newstring [1]
+    
+    for i in reverse_string ('hetali'):
+        print(reverse_string)
+
+
